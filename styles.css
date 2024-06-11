@@ -97,7 +97,10 @@ li {
 }
 
 #todoList p {
-    color: #8f98a8;
+    display: flex;
+    gap: 1rem;
+    color: var(--dark);
+    align-items: center;
 }
 
 #todoList .disabled {
